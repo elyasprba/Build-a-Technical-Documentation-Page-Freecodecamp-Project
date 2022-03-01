@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>JS Documentation</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <!-- navbar -->
+      <nav id="navbar">
+         <header>JS Documentation</header>
+         <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li>
+               <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+            </li>
+            <li>
+               <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+            </li>
+            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li>
+               <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+            </li>
+            <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+            </li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+         </ul>
+      </nav>
+      <!-- end navbar -->
+
+      <!-- main -->
+      <main id="main-doc">
+         <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores odit delectus facere aliquid asperiores dolores quis ducimus eaque architecto placeat!</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatem quidem fugit ut, sit aspernatur beatae odit est aliquid voluptatibus dolore minima facere iste nihil repudiandae dolor similique. Molestias, libero!</p>
+               <ul>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis repellendus repellat voluptate, tenetur voluptates aut perferendis tempore illo ipsa magnam eaque explicabo id unde molestiae autem reiciendis excepturi laudantium! Non?</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eum eligendi suscipit inventore illum eius, odit quaerat soluta ad minima enim quos autem porro, nisi molestias nesciunt animi! Nihil, esse.</li>
+               </ul>
+            </article>
+         </section>
+         <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <article>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe sint molestias voluptas magnam officia minus fugiat atque minima esse illo?</p>
+
+               <ul>
+                  <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In tempore ut obcaecati facilis soluta id distinctio aliquam eaque modi ipsum!</li>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at!</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, unde.</li>
+               </ul>
+            </article>
+         </section>
+         <section class="main-section" id="JavaScript_and_Java">
+            <header>JavaScript and Java</header>
+            <article>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod minima esse, ea laudantium tempora mollitia vero consequuntur nihil dicta inventore vitae eaque praesentium, dolorum asperiores?</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque pariatur dolore iusto accusantium. Officiis explicabo ea nobis quod accusantium nesciunt?</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam illum praesentium, repellendus odit amet dignissimos odio delectus corrupti perspiciatis quae quibusdam ducimus tenetur, cum assumenda?</p>
+            </article>
+         </section>
+         <section class="main-section" id="Hello_world">
+            <header>Hello world</header>
+            <article>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi optio magnam suscipit cum odit quisquam vel possimus obcaecati est laudantium.
+               <code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World"); </code>
+
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ad. Veniam veritatis velit quaerat eaque.
+            </article>
+         </section>
+         <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio laborum tempore aliquid consectetur assumenda rem odit quisquam? Quas, repellendus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium maiores voluptatem illum perspiciatis, deleniti eum alias earum numquam veritatis.</p>
+         </section>
+         <section class="main-section" id="Declaring_variables">
+            <header>Declaring variables</header>
+            <article>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, maxime!
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, architecto! <code>var x = 42.</code> Lorem ipsum dolor sit amet.</p>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, magni. <code>x = 42.</code> Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing.<code> let y = 13.</code> Lorem ipsum dolor sit amet.</p>
+            </article>
+         </section>
+         <section class="main-section" id="Variable_scope">
+            <header>Variable scope</header>
+            <article>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quam?</p>
+
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nihil. Adipisci, reiciendis saepe. Magni, quisquam?</p>
+               <code>if (true) { var x = 5; } console.log(x); // 5</code>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cumque porro? Voluptas excepturi repellendus suscipit ad quaerat.</p>
+
+               <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
+            </article>
+         </section>
+
+         <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+               <ul>
+                  <li>
+                     All the documentation in this page is taken from
+                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
+                  </li>
+               </ul>
+            </article>
+         </section>
+      </main>
+      <!-- end main -->
+
+      <!-- Select Test Suite -->
+      <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+   </body>
+</html>
